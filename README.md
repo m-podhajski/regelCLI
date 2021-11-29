@@ -5,7 +5,7 @@ Command Line Interface for [Regel](https://github.com/utopia-group/regel) - Regu
 
 Make sure you have installed dependencies for [regel](https://github.com/utopia-group/regel) and `gradle`.
 
-To start you need to pull install regel and its dependencies (make sure you are in `regelCLI` directory):
+To start you need to install regel and copy `dataset`, `pretrained_models` and `module-classes` to the working directory (make sure you are in `regelCLI` directory):
 ```shell
 git clone https://github.com/utopia-group/regel
 cd regel
