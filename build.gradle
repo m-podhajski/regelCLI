@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'regel'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation fileTree(dir: 'regel/resnax/lib', include: ['*.jar'])
+    implementation fileTree(dir: 'regel/sempre/lib', include: ['*.jar'])
+    implementation fileTree(dir: 'regel/sempre/libregex', include: ['*.jar'])
+    implementation fileTree(dir: 'regel/sempre/libsempre', include: ['*.jar'])
+    implementation fileTree(dir: 'regel/resnax/jars', include: ['*.jar'])
+
+}

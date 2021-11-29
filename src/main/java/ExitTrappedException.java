@@ -1,0 +1,5 @@
+class ExitTrappedException
+        extends SecurityException
+{
+
+}
