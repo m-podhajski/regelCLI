@@ -3,6 +3,8 @@
 Command Line Interface for [Regel](https://github.com/utopia-group/regel) - Regular Expression Generation from Examples and Language
 
 
+Make sure you have installed dependencies for [regel](https://github.com/utopia-group/regel) and `gradle`.
+
 To start you need to pull install regel and its dependencies (make sure you are in `regelCLI` directory):
 ```shell
 git clone https://github.com/utopia-group/regel
