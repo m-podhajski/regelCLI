@@ -11,6 +11,10 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    extraLibs
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     implementation fileTree(dir: 'regel/resnax/lib', include: ['*.jar'])
@@ -19,4 +23,14 @@ dependencies {
     implementation fileTree(dir: 'regel/sempre/libsempre', include: ['*.jar'])
     implementation fileTree(dir: 'regel/resnax/jars', include: ['*.jar'])
 
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "Main"
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
