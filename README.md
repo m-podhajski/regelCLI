@@ -1,4 +1,5 @@
-#regelCLI
+# regelCLI
+
 Command Line Interface for [Regel](https://github.com/utopia-group/regel) - Regular Expression Generation from Examples and Language
 
 
