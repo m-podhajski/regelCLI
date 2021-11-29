@@ -13,9 +13,11 @@ cd sempre
 ./pull-dependencies freebase
 ./pull-dependencies tables
 ant regex
+cd ..
 cp sempre/dataset ..      
 cp -r sempre/pretrained_models ..
 cp sempre/module-classes.txt ..  
+cd ..
 gradle build
 cp build/libs/regelCLI-1.0-SNAPSHOT.jar .
 java -jar regelCLI-1.0-SNAPSHOT.jar      
