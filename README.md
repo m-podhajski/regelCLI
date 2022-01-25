@@ -23,6 +23,7 @@ cp -r sempre/dataset ..
 cp -r sempre/pretrained_models ..
 cp sempre/module-classes.txt ..  
 cd ..
+mkdir -p regex/data/_tmp
 gradle build
 cp build/libs/regelCLI-1.0-SNAPSHOT.jar .
 java -jar regelCLI-1.0-SNAPSHOT.jar      
