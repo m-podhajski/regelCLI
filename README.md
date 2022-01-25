@@ -16,7 +16,10 @@ cd sempre
 ./pull-dependencies tables
 ant regex
 cd ..
-cp sempre/dataset ..      
+cd resnax
+ant resnax 
+cd ..
+cp -r sempre/dataset ..      
 cp -r sempre/pretrained_models ..
 cp sempre/module-classes.txt ..  
 cd ..
