@@ -15,6 +15,7 @@ cd sempre
 ./pull-dependencies freebase
 ./pull-dependencies tables
 ant regex
+ant sketch
 cd ..
 cd resnax
 ant resnax 
