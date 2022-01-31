@@ -44,7 +44,7 @@ class RegexGenerator
                                           sketch,
                                           "1",
                                           "1",
-                                          "0" };
+                                          "1" };
                 Run.run(runArguments);
             }
         }
