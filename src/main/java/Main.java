@@ -32,12 +32,6 @@ public class Main
             {
             }
         }));
-        System.setErr(new PrintStream(new OutputStream()
-        {
-            public void write(int b)
-            {
-            }
-        }));
     }
 
 
